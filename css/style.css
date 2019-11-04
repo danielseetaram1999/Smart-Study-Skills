@@ -2,10 +2,13 @@
 html {font-size: 1em;}
 
 body {
-  font-family: 'Gentium Book Basic', serif;
+  font-family: 'Big Shoulders Display', cursive;
   font-weight: 400;
+  font-size: 800;  
   line-height: 1.5;
-  color: #333;
+  color: green;
+   background-color: lightcyan
+
   
 /*   there are other ways to do this but it's good to remember not to let text run right up to the edge of borders or color changes, images etc.' */
 /*   padding: 1em; */
@@ -18,14 +21,23 @@ body {
 p, li {
   margin-top: 0;
   margin-bottom: 1em;
+color: green
 }
 
 /* Base Styling for headings  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-family: Lato, sans-serif;
+  color: red;
 }
-
+div {
+   font-family: 'Big Shoulders Display', cursive;
+   font-size: 400;
+   color: green;
+    }
+    
+    
+}
 /* For each of your headings at minimum set the margin, size, line-height. Adjust font-weight and other properties as needed. */
 
 h1 {
